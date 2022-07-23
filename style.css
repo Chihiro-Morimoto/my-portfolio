@@ -1,6 +1,21 @@
+header {
+  display: flow-root;
+  background-color: orange;
+  color: black;
+}
+
+.header-title {
+  text-align: center;
+  margin: 30px;
+  font-size: 50px;
+}
+
 .menu-list {
-  text-align: right;
-  margin-right: 25px;
+  text-align: center;
+}
+
+#homeheader {
+  margin: 25px;
 }
 
 #intro {
@@ -9,4 +24,32 @@
 
 #gallery {
   margin: 25px;
+}
+
+.introduction {
+  margin: 70px;
+}
+
+#intro-title {
+  font-size: 60px;
+}
+
+.intro-details {
+  width: 500px;
+  margin: 40px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: cursive;
+}
+
+.intro-q {
+  font-size: 40px;
+}
+
+.intro-a {
+  font-size: 30px;
+}
+
+.same-birthday {
+  margin-top: 10px;
 }
